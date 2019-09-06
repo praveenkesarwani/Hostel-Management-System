@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu";
+    background-color: #1fab88ad;   
+}
+.bg{
+    background-image: url("image/cover4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colored-section{
+    background-color: #420000;
+}
+#title{
+    top:0;
+    width: 100%;
+    left: 0%;
+    position: fixed;
+}
+.container {
+    width: 900px;
+    background-color: #0093c475;
+    border-radius: 20px;
+    padding: 10px 45px;
+    margin: 10px auto;
+}
+
+.student {
+    background-color: #daf1f988;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 40px 10px;
+}
+
+.faculty {
+    background-color: #daf1f988;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 40px 10px;
+}
+
+#block1,
+#block2 {
+    display: inline-block;
+    width: 380px;
+}
+
+#block2 {
+    float: right;
+}
+
+.heading {
+    background-color: #1fab89;
+    width: 345px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+#hostel{
+    background-color: #18745d;
+    display: inline-block;
+}
+.title {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 25px;
+    color: white;
+}
+#student-portal{
+    background-color: #420000;
+    width:400px;
+    border-radius: 0 0px 10px 10px;
+}
+.signUp {
+    background-color: #4caf50;
+    border: 4px solid #4caf50;
+    border-radius: 10px;
+    padding: 20px 0;
+    margin: 0px auto;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.h1 {
+    font-size: 30px;
+    color: #420000;
+    text-align: center;
+    border-bottom: 2px solid #4caf50;
+    padding: 10px 0;
+}
+
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #4caf50;
+
+}
+
+.textbox i {
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.textbox input {
+    border: 1px solid lightgray;
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+
+.checkbox {
+    margin: 10px;
+    font-size: 18px;
+}
+
+
+/*.signup-box {
+    background-color: lightgrey;
+    width: 400px;
+    border: 4px solid #4caf50;
+    border-radius: 10px;
+    padding: 10px 45px 30px;
+    margin: 10px auto;
+}
+*/
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #4caf50;
+}
+
+.textbox i {
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+
+.col1 {
+    width: 70%;
+    overflow: hidden;
+    font-size: 16px;
+    padding: 8px 0;
+    margin: 20px 0;
+    border-bottom: 1px solid  #257460;
+}
+
+.col2 input {
+    border: 1px solid lightgray;
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+#profile {
+    color: rgb(34, 34, 34);
+    text-align: right;
+    border-bottom: 1px solid #257460;
+    font-size: 20px;
+    width: 100%;
+    padding: 5px 10px 10px 260px;
+}
+
+
+.dropdown {
+    border: 1px solid lightgray;
+    color: black;
+    font-size: 15px;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 150px;
+    background-color: #257460;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 13px 0px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    color: lightcyan;
+    background-color: #1fab89;
+}
+.link {
+    color: #257460;
+    padding-left:80px;
+}
+#loginpage{
+    margin: 0;
+    padding: 0px;
+}
+
+/*STUDENT PORTAL*/
+
+.nav #lastChild{
+    border-right: none;
+    float: right;
+}
+
+li a {
+    font-size: 18px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    color:black;
+}
+li a:hover {
+    color: rgb(143, 132, 132);
+}
+
+.box1 {
+    background-color: #257460;
+    width: 320px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 45px;
+    margin: 50px 0px;
+}
+
+.box2 {
+    background-color: #257460;
+    width: 320px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 45px;
+    margin-top: 50px;
+    float: right;
+}
+.box1,.box2{
+    display: inline-block;
+}
+#notice{
+    width: 100%;
+}
+.login{
+    text-align: center;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+    width: 100%;
+    background-color: #420000;;
+    color: rgba(255, 255, 255, 0.678);
+    text-align: center;
+}
+
+img {
+    margin-bottom: 10px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
