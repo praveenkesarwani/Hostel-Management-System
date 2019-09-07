@@ -189,7 +189,10 @@ if(!$user==true){
 
 <!-- Clients -->
 
-
+<!-- Map -->
+<iframe src="https://maps.google.com/maps?q=gbpuat%20pantnagar&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+	
+<!-- Map -->
 
 <!-- footer -->
 <footer class="py-5">
